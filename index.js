@@ -4,7 +4,7 @@ var app = express()
 var mongoose = require('mongoose');
 
 //var CONNECTION_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/patient_data"
-var CONNECTION_URI = process.env.MONGODB_URI || "mongodb://Someone:database19@ds153775.mlab.com:53775/heroku_7479ctqr"
+var CONNECTION_URI = process.env.MONGODB_URI || "mongodb://Admin:database1997@ds237700.mlab.com:37700/heroku_qctt41p6"
 var port = process.env.PORT || 5000;
 engines = require('consolidate');
 MongoClient = require('mongodb').MongoClient,
